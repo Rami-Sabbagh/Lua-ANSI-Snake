@@ -1,7 +1,7 @@
 # Lua-ANSI-Snake
 Terminal Snake game written in Lua, requires the lcurses library, an ANSI compliant terminal and luasocket.
 
-> The game should work under Linux and macOS, but won't work on Windows, instead run it under WSL if you have Windows 10.
+> The game should work under Linux and macOS, but not on Windows, instead run it under WSL (Windows Subsystem Linux).
 
 ## Installation
 
@@ -14,7 +14,7 @@ sudo luarocks install luasocket
 sudo luarocks install lcurses
 ```
 
-Incase `lcurses` fails to install, you might have to install the `libncurses5-dev` package, which could be installed under ubuntu using:
+In-case `lcurses` fails to install, you might have to install the `libncurses5-dev` package, which could be installed under ubuntu using:
 
 ```
 sudo apt install libncurses5-dev
